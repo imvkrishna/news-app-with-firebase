@@ -27,7 +27,7 @@ export default function NewsPaperList() {
             }
         };
         fetchAPINews();
-    }, []);
+    }, [apiKey]);
 
     const toggleView = () => {
         setIsGridView(!isGridView);
@@ -52,7 +52,7 @@ export default function NewsPaperList() {
                         onClick={() => clickArticleItem(article)}
                     >
                         <div className="news-details">
-                            <h2>{article.title}</h2>
+                            {article.title}
                         </div>
                     </div>
                 ))}

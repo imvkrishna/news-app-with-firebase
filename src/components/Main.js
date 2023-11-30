@@ -10,7 +10,7 @@ export default function Main() {
         <Router>
             <Routes>
                 <Route path="/">
-                    <Route index={true} path="" element={<Mainscreen />}></Route>
+                    <Route index={true} path="" element={<Register />}></Route>
                     <Route index={false} path="register" element={<Register />}></Route>
                     <Route index={false} path="login" element={<Login />}></Route>
                     <Route index={false} path="list" element={<NewsPaperList />}></Route>

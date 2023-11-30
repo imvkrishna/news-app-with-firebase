@@ -16,7 +16,7 @@ const NewsPaperView = () => {
                     Go to List
                 </button>
                 {
-                    article.urlToImage ? <img src={article.urlToImage} alt={article.title} /> : "Image is not available for this article"
+                    article.urlToImage ? <img src={article.urlToImage} alt={article.title} /> : <strong> Image is not available for this article</strong>
                 }
                 <h2>{article.title}</h2>
                 <p>{article.description}</p>

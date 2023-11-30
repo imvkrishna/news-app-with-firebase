@@ -9,17 +9,19 @@
     align-items: center;
 }
 
-.regiter-form {
-    padding: 30px;
+.register-form {
+    padding: 50px;
     border: 1px solid #093f63;
     border-radius: 4px;
 }
 
+.input-container {
+    margin-bottom: 10px;
+}
+
 input {
-    width: 100%;
+    width: 250px;
     padding: 5px;
-    margin: 5px 0;
-    box-sizing: border-box;
     border-radius: 4px;
     border: 1px solid #093f63;
 }
@@ -33,11 +35,13 @@ input {
     float: right;
     cursor: pointer;
 }
+
 @media screen and (max-width:420px) {
     .register-container {
         background-color: #fff;
         color: #093f63;
     }
+
     .regiter-form {
         padding: 50px;
     }
